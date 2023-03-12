@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./first.component.css']
 })
 export class FirstComponent implements OnInit {
-
+  title:string = 'First + [(ngModel)] works';
   constructor() { }
 
   ngOnInit(): void {
